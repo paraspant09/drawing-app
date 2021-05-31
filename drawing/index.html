@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>KrateNMate</title>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <button id="Save-Object">Save Object</button>
+    <button id="StopDrawing">Stop Drawing</button>
+    <button id="StartDrawing">Start Drawing</button>
+    <button id="Undo">Undo</button>
+    <button id="Transformation">Toggle Transformations</button>
+    <button id="Search">Toggle Search</button>
+    <button id="Save-Canvas">Save-Canvas</button>
+    <button id="refresh">Refresh Search</button>
+    <button id="drawCurve">draw Curve</button>
+    <button id="color">color</button>
+    <div id="root">
+
+    </div>
+    <div class="container">
+        <input type="range" min="1" max="100" value="1" class="slider" id="strokewidth_slider">&nbsp;&nbsp;
+        <p id="strokewidth_value"></p>&nbsp;&nbsp;
+
+        Stroke color:<input type="color" id="stroke_color" value="#ff0000">
+        Fill color:<input type="color" id="fill_color" value="#ff0000">
+    </div>
+    <div id="images">
+
+    </div>
+    <div id="parent-childs">
+        
+    </div>
+</body>
+</html>

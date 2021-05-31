@@ -1,0 +1,20 @@
+*{
+    margin: 0rem;
+}
+
+#canvas{
+    color: aqua;
+    border: 0.1rem solid black;
+}
+
+#root{
+    border: 0.1rem solid black;
+}
+
+#parent-childs{
+    border: 0.1rem solid black;
+}
+
+#strokewidth_value{
+    display: inline;
+}
